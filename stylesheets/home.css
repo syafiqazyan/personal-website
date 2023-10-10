@@ -29,5 +29,11 @@ header {
 
 .nav__links {
     list-style: none;
+    display: flex;
+}
+
+.nav__links li {
+    margin: 0 10px;
+    padding: 5px;
 }
 
