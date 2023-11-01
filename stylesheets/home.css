@@ -4,6 +4,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: aliceblue;
+}
+
+header {
     background-color: #24252A;
 }
 
@@ -37,3 +45,21 @@ header {
     padding: 5px;
 }
 
+.main-header {
+    margin: 20px auto;
+    color: gray;
+    text-align: center;
+}
+
+.card {
+    margin-left: 20px;
+    background-color: whitesmoke;
+    width: 66%;
+    border: 3px solid cornflowerblue;
+    border-radius: 0.5rem;
+    box-shadow: 3px #24252A;
+}
+
+.card p, .card h3 {
+    padding: 5px 16px;
+} 
